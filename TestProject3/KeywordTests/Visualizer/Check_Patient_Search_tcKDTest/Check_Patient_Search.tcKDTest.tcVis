@@ -1,0 +1,275 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE Nodes [
+
+<!ENTITY % NameValue "CDATA">
+<!ENTITY % PropType "(I|S|D|L|H|B)">
+<!ENTITY % VersionValue "CDATA">
+
+<!ELEMENT Prp (#PCDATA)>
+<!ELEMENT Node (Node|Prp)*>
+<!ELEMENT Nodes (Node)+>
+
+<!ATTLIST Nodes version CDATA "1">
+
+<!ATTLIST Node name CDATA #REQUIRED>
+
+<!ATTLIST Prp name CDATA #REQUIRED>
+<!ATTLIST Prp type CDATA #REQUIRED>
+<!ATTLIST Prp value CDATA #REQUIRED>
+]>
+<Nodes version="1">
+	<Node name="root">
+		<Node name="data">
+			<Node name="item0000000000">
+				<Node name="data">
+					<Prp name="click point x" type="I" value="-1"/>
+					<Prp name="click point y" type="I" value="-1"/>
+					<Prp name="datetime" type="D" value="41586.6558449074"/>
+					<Prp name="image file name" type="S" value="tcvi65920.png"/>
+					<Prp name="line #" type="I" value="1"/>
+					<Prp name="need update" type="B" value="0"/>
+					<Prp name="object bottom" type="I" value="208"/>
+					<Prp name="object left" type="I" value="899"/>
+					<Prp name="object name" type="S" value="Aliases.browser.pageHttpTestlocationDev03Reachco.tableGwtDebugIdComReachcallFront.cell.table_LoginScreen7.table.cell.textbox"/>
+					<Prp name="object right" type="I" value="1052"/>
+					<Prp name="object top" type="I" value="186"/>
+					<Prp name="signature" type="S" value="{87B03792-E854-4F5D-9F33-165F1F874209}"/>
+					<Prp name="storage file name" type="S" value=""/>
+					<Prp name="version" type="I" value="1"/>
+				</Node>
+				<Prp name="index" type="I" value="0"/>
+			</Node>
+			<Node name="item0000000001">
+				<Node name="data">
+					<Prp name="click point x" type="I" value="-1"/>
+					<Prp name="click point y" type="I" value="-1"/>
+					<Prp name="datetime" type="D" value="41586.6559027778"/>
+					<Prp name="image file name" type="S" value="tcvi65925.png"/>
+					<Prp name="line #" type="I" value="2"/>
+					<Prp name="need update" type="B" value="0"/>
+					<Prp name="object bottom" type="I" value="238"/>
+					<Prp name="object left" type="I" value="899"/>
+					<Prp name="object name" type="S" value="Aliases.browser.pageHttpTestlocationDev03Reachco.tableGwtDebugIdComReachcallFront.cell.table_LoginScreen7.table.passwordbox"/>
+					<Prp name="object right" type="I" value="1052"/>
+					<Prp name="object top" type="I" value="216"/>
+					<Prp name="signature" type="S" value="{87B03792-E854-4F5D-9F33-165F1F874209}"/>
+					<Prp name="storage file name" type="S" value=""/>
+					<Prp name="version" type="I" value="1"/>
+				</Node>
+				<Prp name="index" type="I" value="1"/>
+			</Node>
+			<Node name="item0000000002">
+				<Node name="data">
+					<Prp name="click point x" type="I" value="1028"/>
+					<Prp name="click point y" type="I" value="255"/>
+					<Prp name="datetime" type="D" value="41586.6559375"/>
+					<Prp name="image file name" type="S" value="tcvi65926.png"/>
+					<Prp name="line #" type="I" value="3"/>
+					<Prp name="need update" type="B" value="0"/>
+					<Prp name="object bottom" type="I" value="264"/>
+					<Prp name="object left" type="I" value="998"/>
+					<Prp name="object name" type="S" value="Aliases.browser.pageHttpTestlocationDev03Reachco.tableGwtDebugIdComReachcallFront.cell.table_LoginScreen7.table.button"/>
+					<Prp name="object right" type="I" value="1052"/>
+					<Prp name="object top" type="I" value="244"/>
+					<Prp name="signature" type="S" value="{87B03792-E854-4F5D-9F33-165F1F874209}"/>
+					<Prp name="storage file name" type="S" value=""/>
+					<Prp name="version" type="I" value="1"/>
+				</Node>
+				<Prp name="index" type="I" value="2"/>
+			</Node>
+			<Node name="item0000000003">
+				<Node name="data">
+					<Prp name="click point x" type="I" value="1035"/>
+					<Prp name="click point y" type="I" value="249"/>
+					<Prp name="datetime" type="D" value="41586.6560300926"/>
+					<Prp name="image file name" type="S" value="tcvi65927.png"/>
+					<Prp name="line #" type="I" value="4"/>
+					<Prp name="need update" type="B" value="0"/>
+					<Prp name="object bottom" type="I" value="255"/>
+					<Prp name="object left" type="I" value="786"/>
+					<Prp name="object name" type="S" value="Aliases.browser.pageHttpTestlocationDev03Reachco.tableGwtDebugIdComReachcallFront.cell.tableGwtDebugIdComReachcallFront.textboxGwtDebugScreenSearchquery"/>
+					<Prp name="object right" type="I" value="1388"/>
+					<Prp name="object top" type="I" value="235"/>
+					<Prp name="signature" type="S" value="{87B03792-E854-4F5D-9F33-165F1F874209}"/>
+					<Prp name="storage file name" type="S" value=""/>
+					<Prp name="version" type="I" value="1"/>
+				</Node>
+				<Prp name="index" type="I" value="3"/>
+			</Node>
+			<Node name="item0000000004">
+				<Node name="data">
+					<Prp name="click point x" type="I" value="-1"/>
+					<Prp name="click point y" type="I" value="-1"/>
+					<Prp name="datetime" type="D" value="41586.6560416667"/>
+					<Prp name="image file name" type="S" value="tcvi65929.png"/>
+					<Prp name="line #" type="I" value="6"/>
+					<Prp name="need update" type="B" value="0"/>
+					<Prp name="object bottom" type="I" value="255"/>
+					<Prp name="object left" type="I" value="786"/>
+					<Prp name="object name" type="S" value="Aliases.browser.pageHttpTestlocationDev03Reachco.tableGwtDebugIdComReachcallFront.cell.tableGwtDebugIdComReachcallFront.textboxGwtDebugScreenSearchquery"/>
+					<Prp name="object right" type="I" value="1388"/>
+					<Prp name="object top" type="I" value="235"/>
+					<Prp name="signature" type="S" value="{87B03792-E854-4F5D-9F33-165F1F874209}"/>
+					<Prp name="storage file name" type="S" value=""/>
+					<Prp name="version" type="I" value="1"/>
+				</Node>
+				<Prp name="index" type="I" value="4"/>
+			</Node>
+			<Node name="item0000000005">
+				<Node name="data">
+					<Prp name="click point x" type="I" value="1403"/>
+					<Prp name="click point y" type="I" value="247"/>
+					<Prp name="datetime" type="D" value="41586.6561111111"/>
+					<Prp name="image file name" type="S" value="tcvi659213.png"/>
+					<Prp name="line #" type="I" value="7"/>
+					<Prp name="need update" type="B" value="0"/>
+					<Prp name="object bottom" type="I" value="255"/>
+					<Prp name="object left" type="I" value="1390"/>
+					<Prp name="object name" type="S" value="Aliases.browser.pageHttpTestlocationDev03Reachco.tableGwtDebugIdComReachcallFront.cell.tableGwtDebugIdComReachcallFront.button"/>
+					<Prp name="object right" type="I" value="1447"/>
+					<Prp name="object top" type="I" value="235"/>
+					<Prp name="signature" type="S" value="{87B03792-E854-4F5D-9F33-165F1F874209}"/>
+					<Prp name="storage file name" type="S" value=""/>
+					<Prp name="version" type="I" value="1"/>
+				</Node>
+				<Prp name="index" type="I" value="5"/>
+			</Node>
+			<Node name="item0000000006">
+				<Node name="data">
+					<Prp name="click point x" type="I" value="927"/>
+					<Prp name="click point y" type="I" value="341"/>
+					<Prp name="datetime" type="D" value="41586.6563310185"/>
+					<Prp name="image file name" type="S" value="tcvi659214.png"/>
+					<Prp name="line #" type="I" value="8"/>
+					<Prp name="need update" type="B" value="0"/>
+					<Prp name="object bottom" type="I" value="349"/>
+					<Prp name="object left" type="I" value="780"/>
+					<Prp name="object name" type="S" value="Aliases.browser.pageHttpTestlocationDev03Reachco.tableGwtDebugIdComReachcallFront.cell.tableGwtDebugIdComReachcallFront.panelGwtDebugIdComReachcallFront"/>
+					<Prp name="object right" type="I" value="935"/>
+					<Prp name="object top" type="I" value="335"/>
+					<Prp name="signature" type="S" value="{87B03792-E854-4F5D-9F33-165F1F874209}"/>
+					<Prp name="storage file name" type="S" value=""/>
+					<Prp name="version" type="I" value="1"/>
+				</Node>
+				<Prp name="index" type="I" value="6"/>
+			</Node>
+			<Node name="item0000000007">
+				<Node name="data">
+					<Prp name="click point x" type="I" value="185"/>
+					<Prp name="click point y" type="I" value="200"/>
+					<Prp name="datetime" type="D" value="41586.656412037"/>
+					<Prp name="image file name" type="S" value="tcvi659215.png"/>
+					<Prp name="line #" type="I" value="9"/>
+					<Prp name="need update" type="B" value="0"/>
+					<Prp name="object bottom" type="I" value="207"/>
+					<Prp name="object left" type="I" value="115"/>
+					<Prp name="object name" type="S" value="Aliases.browser.pageHttpTestlocationDev03Reachco.tableGwtDebugIdComReachcallFront.cell.tableGwtDebugIdComReachcallFront2.cell.table.cell.panel.panel"/>
+					<Prp name="object right" type="I" value="211"/>
+					<Prp name="object top" type="I" value="193"/>
+					<Prp name="signature" type="S" value="{87B03792-E854-4F5D-9F33-165F1F874209}"/>
+					<Prp name="storage file name" type="S" value=""/>
+					<Prp name="version" type="I" value="1"/>
+				</Node>
+				<Prp name="index" type="I" value="7"/>
+			</Node>
+			<Node name="item0000000008">
+				<Node name="data">
+					<Prp name="click point x" type="I" value="181"/>
+					<Prp name="click point y" type="I" value="204"/>
+					<Prp name="datetime" type="D" value="41586.6565162037"/>
+					<Prp name="image file name" type="S" value="tcvi659216.png"/>
+					<Prp name="line #" type="I" value="10"/>
+					<Prp name="need update" type="B" value="0"/>
+					<Prp name="object bottom" type="I" value="207"/>
+					<Prp name="object left" type="I" value="115"/>
+					<Prp name="object name" type="S" value="Aliases.browser.pageHttpTestlocationDev03Reachco.tableGwtDebugIdComReachcallFront.cell.tableGwtDebugIdComReachcallFront2.cell.table.cell.panel.panel"/>
+					<Prp name="object right" type="I" value="211"/>
+					<Prp name="object top" type="I" value="193"/>
+					<Prp name="signature" type="S" value="{87B03792-E854-4F5D-9F33-165F1F874209}"/>
+					<Prp name="storage file name" type="S" value=""/>
+					<Prp name="version" type="I" value="1"/>
+				</Node>
+				<Prp name="index" type="I" value="8"/>
+			</Node>
+			<Node name="item0000000009">
+				<Node name="data">
+					<Prp name="click point x" type="I" value="744"/>
+					<Prp name="click point y" type="I" value="243"/>
+					<Prp name="datetime" type="D" value="41586.6565393519"/>
+					<Prp name="image file name" type="S" value="tcvi659217.png"/>
+					<Prp name="line #" type="I" value="11"/>
+					<Prp name="need update" type="B" value="0"/>
+					<Prp name="object bottom" type="I" value="255"/>
+					<Prp name="object left" type="I" value="611"/>
+					<Prp name="object name" type="S" value="Aliases.browser.pageHttpTestlocationDev03Reachco.tableGwtDebugIdComReachcallFront.cell.tableGwtDebugIdComReachcallFront2.textbox"/>
+					<Prp name="object right" type="I" value="1213"/>
+					<Prp name="object top" type="I" value="235"/>
+					<Prp name="signature" type="S" value="{87B03792-E854-4F5D-9F33-165F1F874209}"/>
+					<Prp name="storage file name" type="S" value=""/>
+					<Prp name="version" type="I" value="1"/>
+				</Node>
+				<Prp name="index" type="I" value="9"/>
+			</Node>
+			<Node name="item0000000010">
+				<Node name="data">
+					<Prp name="click point x" type="I" value="-1"/>
+					<Prp name="click point y" type="I" value="-1"/>
+					<Prp name="datetime" type="D" value="41586.6565509259"/>
+					<Prp name="image file name" type="S" value="tcvi659219.png"/>
+					<Prp name="line #" type="I" value="12"/>
+					<Prp name="need update" type="B" value="0"/>
+					<Prp name="object bottom" type="I" value="255"/>
+					<Prp name="object left" type="I" value="611"/>
+					<Prp name="object name" type="S" value="Aliases.browser.pageHttpTestlocationDev03Reachco.tableGwtDebugIdComReachcallFront.cell.tableGwtDebugIdComReachcallFront2.textbox"/>
+					<Prp name="object right" type="I" value="1213"/>
+					<Prp name="object top" type="I" value="235"/>
+					<Prp name="signature" type="S" value="{87B03792-E854-4F5D-9F33-165F1F874209}"/>
+					<Prp name="storage file name" type="S" value=""/>
+					<Prp name="version" type="I" value="1"/>
+				</Node>
+				<Prp name="index" type="I" value="10"/>
+			</Node>
+			<Node name="item0000000011">
+				<Node name="data">
+					<Prp name="click point x" type="I" value="1240"/>
+					<Prp name="click point y" type="I" value="237"/>
+					<Prp name="datetime" type="D" value="41586.6565740741"/>
+					<Prp name="image file name" type="S" value="tcvi659220.png"/>
+					<Prp name="line #" type="I" value="13"/>
+					<Prp name="need update" type="B" value="0"/>
+					<Prp name="object bottom" type="I" value="255"/>
+					<Prp name="object left" type="I" value="1215"/>
+					<Prp name="object name" type="S" value="Aliases.browser.pageHttpTestlocationDev03Reachco.tableGwtDebugIdComReachcallFront.cell.tableGwtDebugIdComReachcallFront2.button"/>
+					<Prp name="object right" type="I" value="1272"/>
+					<Prp name="object top" type="I" value="235"/>
+					<Prp name="signature" type="S" value="{87B03792-E854-4F5D-9F33-165F1F874209}"/>
+					<Prp name="storage file name" type="S" value=""/>
+					<Prp name="version" type="I" value="1"/>
+				</Node>
+				<Prp name="index" type="I" value="11"/>
+			</Node>
+			<Node name="item0000000012">
+				<Node name="data">
+					<Prp name="click point x" type="I" value="45"/>
+					<Prp name="click point y" type="I" value="289"/>
+					<Prp name="datetime" type="D" value="41586.6566550926"/>
+					<Prp name="image file name" type="S" value="tcvi659221.png"/>
+					<Prp name="line #" type="I" value="14"/>
+					<Prp name="need update" type="B" value="0"/>
+					<Prp name="object bottom" type="I" value="294"/>
+					<Prp name="object left" type="I" value="10"/>
+					<Prp name="object name" type="S" value="Aliases.browser.pageHttpTestlocationDev03Reachco.tableGwtDebugIdComReachcallFront.cell.tableGwtDebugIdComReachcallFront2.tableGwtDebugIdComReachcallFront.cell.table.cell.panel"/>
+					<Prp name="object right" type="I" value="373"/>
+					<Prp name="object top" type="I" value="280"/>
+					<Prp name="signature" type="S" value="{87B03792-E854-4F5D-9F33-165F1F874209}"/>
+					<Prp name="storage file name" type="S" value=""/>
+					<Prp name="version" type="I" value="1"/>
+				</Node>
+				<Prp name="index" type="I" value="12"/>
+			</Node>
+			<Prp name="key" type="S" value="{5A73BB9A-0E13-45C7-840B-BC31ADF46F20}"/>
+		</Node>
+		<Prp name="signature" type="S" value="{42D2222C-ACA2-405F-8E67-05D5C42EB839}"/>
+		<Prp name="version" type="I" value="1"/>
+	</Node>
+</Nodes>

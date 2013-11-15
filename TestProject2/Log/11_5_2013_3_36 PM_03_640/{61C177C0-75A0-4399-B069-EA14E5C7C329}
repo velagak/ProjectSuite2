@@ -1,0 +1,964 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE Nodes [
+
+<!ENTITY % NameValue "CDATA">
+<!ENTITY % PropType "(I|S|D|L|H|B)">
+<!ENTITY % VersionValue "CDATA">
+
+<!ELEMENT Prp (#PCDATA)>
+<!ELEMENT Node (Node|Prp)*>
+<!ELEMENT Nodes (Node)+>
+
+<!ATTLIST Nodes version CDATA "1">
+
+<!ATTLIST Node name CDATA #REQUIRED>
+
+<!ATTLIST Prp name CDATA #REQUIRED>
+<!ATTLIST Prp type CDATA #REQUIRED>
+<!ATTLIST Prp value CDATA #REQUIRED>
+]>
+<Nodes version="1">
+	<Node name="root">
+		<Node name="message 7">
+			<Node name="visualizer">
+				<Node name="current">
+					<Prp name="object left" type="I" value="523"/>
+					<Prp name="click point y" type="I" value="-1"/>
+					<Prp name="object top" type="I" value="342"/>
+					<Prp name="line #" type="I" value="21"/>
+					<Prp name="signature" type="S" value="{87B03792-E854-4F5D-9F33-165F1F874209}"/>
+					<Prp name="image file name" type="S" value="visImage5.png"/>
+					<Prp name="object right" type="I" value="962"/>
+					<Prp name="datetime" type="D" value="41583.6501726389"/>
+					<Prp name="storage file name" type="S" value=""/>
+					<Prp name="version" type="I" value="1"/>
+					<Prp name="object bottom" type="I" value="362"/>
+					<Prp name="object name" type="S" value="Aliases.browser.pageHttpTestlocationDev03Reachco.tableGwtDebugIdComReachcallFront.cell.textboxGwtDebugFormPatientname"/>
+					<Prp name="need update" type="B" value="0"/>
+					<Prp name="click point x" type="I" value="-1"/>
+				</Node>
+				<Node name="original">
+					<Prp name="object left" type="I" value="1003"/>
+					<Prp name="click point y" type="I" value="-1"/>
+					<Prp name="object top" type="I" value="322"/>
+					<Prp name="line #" type="I" value="21"/>
+					<Prp name="signature" type="S" value="{87B03792-E854-4F5D-9F33-165F1F874209}"/>
+					<Prp name="image file name" type="S" value="tcvi278810.png"/>
+					<Prp name="object right" type="I" value="1442"/>
+					<Prp name="datetime" type="D" value="41582.901412037"/>
+					<Prp name="storage file name" type="S" value=""/>
+					<Prp name="version" type="I" value="1"/>
+					<Prp name="object bottom" type="I" value="342"/>
+					<Prp name="object name" type="S" value="Aliases.browser.pageHttpTestlocationDev03Reachco.tableGwtDebugIdComReachcallFront.cell.textboxGwtDebugFormPatientname"/>
+					<Prp name="need update" type="B" value="0"/>
+					<Prp name="click point x" type="I" value="1919"/>
+				</Node>
+				<Node name="diff">
+					<Prp name="object left" type="I" value="-1"/>
+					<Prp name="click point y" type="I" value="-1"/>
+					<Prp name="object top" type="I" value="-1"/>
+					<Prp name="line #" type="I" value="21"/>
+					<Prp name="signature" type="S" value="{87B03792-E854-4F5D-9F33-165F1F874209}"/>
+					<Prp name="image file name" type="S" value="visImage5_Dif.png"/>
+					<Prp name="object right" type="I" value="-1"/>
+					<Prp name="datetime" type="D" value="0"/>
+					<Prp name="storage file name" type="S" value=""/>
+					<Prp name="version" type="I" value="1"/>
+					<Prp name="object bottom" type="I" value="-1"/>
+					<Prp name="object name" type="S" value=""/>
+					<Prp name="need update" type="B" value="0"/>
+					<Prp name="click point x" type="I" value="-1"/>
+				</Node>
+			</Node>
+			<Prp name="id" type="I" value="7"/>
+			<Prp name="as html" type="B" value="0"/>
+			<Prp name="type" type="I" value="1"/>
+			<Prp name="link" type="S" value=""/>
+			<Prp name="child index" type="I" value="-1"/>
+			<Prp name="date" type="D" value="41583.650178287"/>
+			<Prp name="owner id" type="I" value="-1"/>
+			<Prp name="unit id" type="I" value="1"/>
+			<Prp name="message" type="S" value="Keyboard input."/>
+			<Prp name="priority" type="I" value="300"/>
+			<Prp name="remarks" type="S" value="'Bill Brown326' was sent as a keyboard input to a window:&#xA;&#xA;Tested object:&#xA;Aliases.browser.pageHttpTestlocationDev03Reachco.tableGwtDebugIdComReachcallFront.cell.textboxGwtDebugFormPatientname&#xA;(Sys.Browser(&quot;chrome&quot;).Page(&quot;http://testlocation.dev03.reachcorp.local/frontend/&quot;).Panel(&quot;root&quot;).Panel(2).Table(&quot;gwt_debug_id_com_reachcall_frontend_client_ui_PageShell3&quot;).Cell(1, 0).Panel(0).Table(&quot;gwt_debug_id_com_reachcall_frontend_client_registration_Registration13&quot;).Cell(1, 0).Panel(0).Table(&quot;gwt_debug_id_com_reachcall_frontend_client_registration_Screen11&quot;).Cell(0, 1).Table(0).Cell(1, 0).Panel(0).Panel(0).Panel(0).Table(1).Cell(1, 0).Panel(0).Table(0).Cell(0, 0).Table(0).Cell(0, 1).Textbox(&quot;gwt_debug_Form_patientName&quot;))"/>
+			<Prp name="line no" type="I" value="21"/>
+			<Prp name="picture" type="S" value=""/>
+		</Node>
+		<Node name="message 11">
+			<Node name="visualizer">
+				<Node name="current">
+					<Prp name="object left" type="I" value="532"/>
+					<Prp name="click point y" type="I" value="507"/>
+					<Prp name="object top" type="I" value="493"/>
+					<Prp name="line #" type="I" value="29"/>
+					<Prp name="signature" type="S" value="{87B03792-E854-4F5D-9F33-165F1F874209}"/>
+					<Prp name="image file name" type="S" value="visImage9.png"/>
+					<Prp name="object right" type="I" value="760"/>
+					<Prp name="datetime" type="D" value="41583.6502289352"/>
+					<Prp name="storage file name" type="S" value=""/>
+					<Prp name="version" type="I" value="1"/>
+					<Prp name="object bottom" type="I" value="513"/>
+					<Prp name="object name" type="S" value="Aliases.browser.pageHttpTestlocationDev03Reachco.tableGwtDebugIdComReachcallFront.cell.table2.textboxGwtDebugFormDateofbirth"/>
+					<Prp name="need update" type="B" value="0"/>
+					<Prp name="click point x" type="I" value="571"/>
+				</Node>
+				<Node name="original">
+					<Prp name="object left" type="I" value="1012"/>
+					<Prp name="click point y" type="I" value="487"/>
+					<Prp name="object top" type="I" value="473"/>
+					<Prp name="line #" type="I" value="29"/>
+					<Prp name="signature" type="S" value="{87B03792-E854-4F5D-9F33-165F1F874209}"/>
+					<Prp name="image file name" type="S" value="tcvi278818.png"/>
+					<Prp name="object right" type="I" value="1240"/>
+					<Prp name="datetime" type="D" value="41582.9015740741"/>
+					<Prp name="storage file name" type="S" value=""/>
+					<Prp name="version" type="I" value="1"/>
+					<Prp name="object bottom" type="I" value="493"/>
+					<Prp name="object name" type="S" value="Aliases.browser.pageHttpTestlocationDev03Reachco.tableGwtDebugIdComReachcallFront.cell.table2.textboxGwtDebugFormDateofbirth"/>
+					<Prp name="need update" type="B" value="0"/>
+					<Prp name="click point x" type="I" value="1051"/>
+				</Node>
+				<Node name="diff">
+					<Prp name="object left" type="I" value="-1"/>
+					<Prp name="click point y" type="I" value="-1"/>
+					<Prp name="object top" type="I" value="-1"/>
+					<Prp name="line #" type="I" value="29"/>
+					<Prp name="signature" type="S" value="{87B03792-E854-4F5D-9F33-165F1F874209}"/>
+					<Prp name="image file name" type="S" value="visImage9_Dif.png"/>
+					<Prp name="object right" type="I" value="-1"/>
+					<Prp name="datetime" type="D" value="0"/>
+					<Prp name="storage file name" type="S" value=""/>
+					<Prp name="version" type="I" value="1"/>
+					<Prp name="object bottom" type="I" value="-1"/>
+					<Prp name="object name" type="S" value=""/>
+					<Prp name="need update" type="B" value="0"/>
+					<Prp name="click point x" type="I" value="-1"/>
+				</Node>
+			</Node>
+			<Prp name="id" type="I" value="11"/>
+			<Prp name="as html" type="B" value="0"/>
+			<Prp name="type" type="I" value="1"/>
+			<Prp name="link" type="S" value=""/>
+			<Prp name="child index" type="I" value="-1"/>
+			<Prp name="date" type="D" value="41583.6502297685"/>
+			<Prp name="owner id" type="I" value="-1"/>
+			<Prp name="unit id" type="I" value="1"/>
+			<Prp name="message" type="S" value="The window was clicked with the left mouse button."/>
+			<Prp name="priority" type="I" value="300"/>
+			<Prp name="remarks" type="S" value="A click at point (39, 14) with no key pressed.&#xA;&#xA;Tested object:&#xA;Aliases.browser.pageHttpTestlocationDev03Reachco.tableGwtDebugIdComReachcallFront.cell.table2.textboxGwtDebugFormDateofbirth&#xA;(Sys.Browser(&quot;chrome&quot;).Page(&quot;http://testlocation.dev03.reachcorp.local/frontend/&quot;).Panel(&quot;root&quot;).Panel(2).Table(&quot;gwt_debug_id_com_reachcall_frontend_client_ui_PageShell3&quot;).Cell(1, 0).Panel(0).Table(&quot;gwt_debug_id_com_reachcall_frontend_client_registration_Registration13&quot;).Cell(1, 0).Panel(0).Table(&quot;gwt_debug_id_com_reachcall_frontend_client_registration_Screen11&quot;).Cell(0, 1).Table(0).Cell(1, 0).Panel(0).Panel(0).Panel(0).Table(1).Cell(8, 0).Panel(0).Table(0).Cell(0, 1).Table(0).Cell(0, 0).Panel(0).Table(0).Cell(0, 1).Textbox(&quot;gwt_debug_Form_dateOfBirth&quot;))"/>
+			<Prp name="line no" type="I" value="29"/>
+			<Prp name="picture" type="S" value=""/>
+		</Node>
+		<Node name="message 15">
+			<Prp name="id" type="I" value="15"/>
+			<Prp name="as html" type="B" value="0"/>
+			<Prp name="type" type="I" value="3"/>
+			<Prp name="link" type="S" value=""/>
+			<Prp name="child index" type="I" value="-1"/>
+			<Prp name="date" type="D" value="41583.6503659722"/>
+			<Prp name="stack beginning" type="I" value="0"/>
+			<Prp name="owner id" type="I" value="-1"/>
+			<Prp name="unit id" type="I" value="1"/>
+			<Prp name="message" type="S" value="Unable to obtain the item's rectangle."/>
+			<Prp name="priority" type="I" value="300"/>
+			<Prp name="stack end" type="I" value="0"/>
+			<Prp name="remarks" type="S" value="&#xA;&#xA;Tested object:&#xA;Aliases.browser.pageHttpTestlocationDev03Reachco.tableGwtDebugIdComReachcallFront.cell.table2.textboxGwtDebugFormMedicalrecord&#xA;(Sys.Browser(&quot;chrome&quot;).Page(&quot;http://testlocation.dev03.reachcorp.local/frontend/&quot;).Panel(&quot;root&quot;).Panel(2).Table(&quot;gwt_debug_id_com_reachcall_frontend_client_ui_PageShell3&quot;).Cell(1, 0).Panel(0).Table(&quot;gwt_debug_id_com_reachcall_frontend_client_registration_Registration13&quot;).Cell(1, 0).Panel(0).Table(&quot;gwt_debug_id_com_reachcall_frontend_client_registration_Screen11&quot;).Cell(0, 1).Table(0).Cell(1, 0).Panel(0).Panel(0).Panel(0).Table(1).Cell(12, 0).Panel(0).Table(0).Cell(0, 1).Textbox(&quot;gwt_debug_Form_medicalRecordNumber&quot;))"/>
+			<Prp name="line no" type="I" value="37"/>
+			<Prp name="picture" type="S" value="Picture1.png"/>
+		</Node>
+		<Node name="message 0">
+			<Prp name="id" type="I" value="0"/>
+			<Prp name="as html" type="B" value="0"/>
+			<Prp name="type" type="I" value="2"/>
+			<Prp name="link" type="S" value=""/>
+			<Prp name="child index" type="I" value="-1"/>
+			<Prp name="date" type="D" value="41583.6500451042"/>
+			<Prp name="owner id" type="I" value="-1"/>
+			<Prp name="unit id" type="I" value="0"/>
+			<Prp name="message" type="S" value="The browser is already running."/>
+			<Prp name="priority" type="I" value="300"/>
+			<Prp name="remarks" type="S" value="Google Chrome"/>
+			<Prp name="line no" type="I" value="181"/>
+			<Prp name="picture" type="S" value=""/>
+		</Node>
+		<Node name="item 1">
+			<Prp name="unit id" type="I" value="1"/>
+			<Prp name="line no" type="I" value="37"/>
+			<Prp name="stacktext" type="S" value=""/>
+		</Node>
+		<Node name="units">
+			<Prp name="unit 0" type="S" value="{4B5A0568-EBCF-49AD-911A-E64196DCC136}"/>
+			<Prp name="unit 1" type="S" value="{5B2C64A8-7AD2-40F4-B7CB-EB763EA9FD63}"/>
+		</Node>
+		<Node name="child data"/>
+		<Node name="message 4">
+			<Node name="visualizer">
+				<Node name="current">
+					<Prp name="object left" type="I" value="430"/>
+					<Prp name="click point y" type="I" value="-1"/>
+					<Prp name="object top" type="I" value="236"/>
+					<Prp name="line #" type="I" value="15"/>
+					<Prp name="signature" type="S" value="{87B03792-E854-4F5D-9F33-165F1F874209}"/>
+					<Prp name="image file name" type="S" value="visImage2.png"/>
+					<Prp name="object right" type="I" value="583"/>
+					<Prp name="datetime" type="D" value="41583.6501401505"/>
+					<Prp name="storage file name" type="S" value=""/>
+					<Prp name="version" type="I" value="1"/>
+					<Prp name="object bottom" type="I" value="258"/>
+					<Prp name="object name" type="S" value="Aliases.browser.pageHttpTestlocationDev03Reachco.tableGwtDebugIdComReachcallFront.cell.table.passwordbox"/>
+					<Prp name="need update" type="B" value="0"/>
+					<Prp name="click point x" type="I" value="-1"/>
+				</Node>
+				<Node name="original">
+					<Prp name="object left" type="I" value="899"/>
+					<Prp name="click point y" type="I" value="-1"/>
+					<Prp name="object top" type="I" value="216"/>
+					<Prp name="line #" type="I" value="15"/>
+					<Prp name="signature" type="S" value="{87B03792-E854-4F5D-9F33-165F1F874209}"/>
+					<Prp name="image file name" type="S" value="tcvi27886.png"/>
+					<Prp name="object right" type="I" value="1052"/>
+					<Prp name="datetime" type="D" value="41582.9012962963"/>
+					<Prp name="storage file name" type="S" value=""/>
+					<Prp name="version" type="I" value="1"/>
+					<Prp name="object bottom" type="I" value="238"/>
+					<Prp name="object name" type="S" value="Aliases.browser.pageHttpTestlocationDev03Reachco.tableGwtDebugIdComReachcallFront.cell.table.passwordbox"/>
+					<Prp name="need update" type="B" value="0"/>
+					<Prp name="click point x" type="I" value="1919"/>
+				</Node>
+				<Node name="diff">
+					<Prp name="object left" type="I" value="-1"/>
+					<Prp name="click point y" type="I" value="-1"/>
+					<Prp name="object top" type="I" value="-1"/>
+					<Prp name="line #" type="I" value="15"/>
+					<Prp name="signature" type="S" value="{87B03792-E854-4F5D-9F33-165F1F874209}"/>
+					<Prp name="image file name" type="S" value="visImage2_Dif.png"/>
+					<Prp name="object right" type="I" value="-1"/>
+					<Prp name="datetime" type="D" value="0"/>
+					<Prp name="storage file name" type="S" value=""/>
+					<Prp name="version" type="I" value="1"/>
+					<Prp name="object bottom" type="I" value="-1"/>
+					<Prp name="object name" type="S" value=""/>
+					<Prp name="need update" type="B" value="0"/>
+					<Prp name="click point x" type="I" value="-1"/>
+				</Node>
+			</Node>
+			<Prp name="id" type="I" value="4"/>
+			<Prp name="as html" type="B" value="0"/>
+			<Prp name="type" type="I" value="1"/>
+			<Prp name="link" type="S" value=""/>
+			<Prp name="child index" type="I" value="-1"/>
+			<Prp name="date" type="D" value="41583.6501439468"/>
+			<Prp name="owner id" type="I" value="-1"/>
+			<Prp name="unit id" type="I" value="1"/>
+			<Prp name="message" type="S" value="Keyboard input."/>
+			<Prp name="priority" type="I" value="300"/>
+			<Prp name="remarks" type="S" value="'murali123' was sent as a keyboard input to a window:&#xA;&#xA;Tested object:&#xA;Aliases.browser.pageHttpTestlocationDev03Reachco.tableGwtDebugIdComReachcallFront.cell.table.passwordbox&#xA;(Sys.Browser(&quot;chrome&quot;).Page(&quot;http://testlocation.dev03.reachcorp.local/frontend/&quot;).Panel(&quot;root&quot;).Panel(2).Table(&quot;gwt_debug_id_com_reachcall_frontend_client_ui_PageShell3&quot;).Cell(1, 0).Panel(0).Table(&quot;gwt_debug_id_com_reachcall_frontend_client_login_LoginScreen7&quot;).Cell(1, 0).Table(0).Cell(1, 1).PasswordBox(0))"/>
+			<Prp name="line no" type="I" value="15"/>
+			<Prp name="picture" type="S" value=""/>
+		</Node>
+		<Node name="message 8">
+			<Node name="visualizer">
+				<Node name="current">
+					<Prp name="object left" type="I" value="532"/>
+					<Prp name="click point y" type="I" value="449"/>
+					<Prp name="object top" type="I" value="439"/>
+					<Prp name="line #" type="I" value="23"/>
+					<Prp name="signature" type="S" value="{87B03792-E854-4F5D-9F33-165F1F874209}"/>
+					<Prp name="image file name" type="S" value="visImage6.png"/>
+					<Prp name="object right" type="I" value="552"/>
+					<Prp name="datetime" type="D" value="41583.6501814236"/>
+					<Prp name="storage file name" type="S" value=""/>
+					<Prp name="version" type="I" value="1"/>
+					<Prp name="object bottom" type="I" value="459"/>
+					<Prp name="object name" type="S" value="Aliases.browser.pageHttpTestlocationDev03Reachco.tableGwtDebugIdComReachcallFront.cell.cell.radiobuttonComReachcallFrontendC"/>
+					<Prp name="need update" type="B" value="0"/>
+					<Prp name="click point x" type="I" value="542"/>
+				</Node>
+				<Node name="original">
+					<Prp name="object left" type="I" value="1012"/>
+					<Prp name="click point y" type="I" value="428"/>
+					<Prp name="object top" type="I" value="419"/>
+					<Prp name="line #" type="I" value="23"/>
+					<Prp name="signature" type="S" value="{87B03792-E854-4F5D-9F33-165F1F874209}"/>
+					<Prp name="image file name" type="S" value="tcvi278815.png"/>
+					<Prp name="object right" type="I" value="1032"/>
+					<Prp name="datetime" type="D" value="41582.9014930556"/>
+					<Prp name="storage file name" type="S" value=""/>
+					<Prp name="version" type="I" value="1"/>
+					<Prp name="object bottom" type="I" value="439"/>
+					<Prp name="object name" type="S" value="Aliases.browser.pageHttpTestlocationDev03Reachco.tableGwtDebugIdComReachcallFront.cell.cell.radiobuttonComReachcallFrontendC"/>
+					<Prp name="need update" type="B" value="0"/>
+					<Prp name="click point x" type="I" value="1021"/>
+				</Node>
+				<Node name="diff">
+					<Prp name="object left" type="I" value="-1"/>
+					<Prp name="click point y" type="I" value="-1"/>
+					<Prp name="object top" type="I" value="-1"/>
+					<Prp name="line #" type="I" value="23"/>
+					<Prp name="signature" type="S" value="{87B03792-E854-4F5D-9F33-165F1F874209}"/>
+					<Prp name="image file name" type="S" value="visImage6_Dif.png"/>
+					<Prp name="object right" type="I" value="-1"/>
+					<Prp name="datetime" type="D" value="0"/>
+					<Prp name="storage file name" type="S" value=""/>
+					<Prp name="version" type="I" value="1"/>
+					<Prp name="object bottom" type="I" value="-1"/>
+					<Prp name="object name" type="S" value=""/>
+					<Prp name="need update" type="B" value="0"/>
+					<Prp name="click point x" type="I" value="-1"/>
+				</Node>
+			</Node>
+			<Prp name="id" type="I" value="8"/>
+			<Prp name="as html" type="B" value="0"/>
+			<Prp name="type" type="I" value="1"/>
+			<Prp name="link" type="S" value=""/>
+			<Prp name="child index" type="I" value="-1"/>
+			<Prp name="date" type="D" value="41583.6501831134"/>
+			<Prp name="owner id" type="I" value="-1"/>
+			<Prp name="unit id" type="I" value="1"/>
+			<Prp name="message" type="S" value="The radio button was clicked with the left mouse button."/>
+			<Prp name="priority" type="I" value="300"/>
+			<Prp name="remarks" type="S" value="The control state has been changed to 'checked'.&#xA;&#xA;Tested object:&#xA;Aliases.browser.pageHttpTestlocationDev03Reachco.tableGwtDebugIdComReachcallFront.cell.cell.radiobuttonComReachcallFrontendC&#xA;(Sys.Browser(&quot;chrome&quot;).Page(&quot;http://testlocation.dev03.reachcorp.local/frontend/&quot;).Panel(&quot;root&quot;).Panel(2).Table(&quot;gwt_debug_id_com_reachcall_frontend_client_ui_PageShell3&quot;).Cell(1, 0).Panel(0).Table(&quot;gwt_debug_id_com_reachcall_frontend_client_registration_Registration13&quot;).Cell(1, 0).Panel(0).Table(&quot;gwt_debug_id_com_reachcall_frontend_client_registration_Screen11&quot;).Cell(0, 1).Table(0).Cell(1, 0).Panel(0).Panel(0).Panel(0).Table(1).Cell(4, 0).Panel(&quot;com_reachcall_frontend_client_ui_ListWidget0&quot;).Table(0).Cell(1, 0).Table(&quot;gwt_debug_Form_sex&quot;).Cell(0, 0).Table(0).Cell(0, 0).Table(0).Cell(0, 0).RadioButton(&quot;com_reachcall_frontend_client_ui_ListWidget0&quot;))"/>
+			<Prp name="line no" type="I" value="23"/>
+			<Prp name="picture" type="S" value=""/>
+		</Node>
+		<Node name="message 1">
+			<Prp name="id" type="I" value="1"/>
+			<Prp name="as html" type="B" value="0"/>
+			<Prp name="type" type="I" value="1"/>
+			<Prp name="link" type="S" value=""/>
+			<Prp name="child index" type="I" value="-1"/>
+			<Prp name="date" type="D" value="41583.6500804167"/>
+			<Prp name="owner id" type="I" value="-1"/>
+			<Prp name="unit id" type="I" value="0"/>
+			<Prp name="message" type="S" value="Navigating to the http://testlocation.dev03.reachcorp.local/frontend/ page."/>
+			<Prp name="priority" type="I" value="300"/>
+			<Prp name="remarks" type="S" value="URL: http://testlocation.dev03.reachcorp.local/frontend/&#xA;&#xA;Aliases.browser"/>
+			<Prp name="line no" type="I" value="181"/>
+			<Prp name="picture" type="S" value=""/>
+		</Node>
+		<Node name="message 12">
+			<Node name="visualizer">
+				<Node name="current">
+					<Prp name="object left" type="I" value="532"/>
+					<Prp name="click point y" type="I" value="-1"/>
+					<Prp name="object top" type="I" value="493"/>
+					<Prp name="line #" type="I" value="31"/>
+					<Prp name="signature" type="S" value="{87B03792-E854-4F5D-9F33-165F1F874209}"/>
+					<Prp name="image file name" type="S" value="visImage10.png"/>
+					<Prp name="object right" type="I" value="760"/>
+					<Prp name="datetime" type="D" value="41583.6502306597"/>
+					<Prp name="storage file name" type="S" value=""/>
+					<Prp name="version" type="I" value="1"/>
+					<Prp name="object bottom" type="I" value="513"/>
+					<Prp name="object name" type="S" value="Aliases.browser.pageHttpTestlocationDev03Reachco.tableGwtDebugIdComReachcallFront.cell.table2.textboxGwtDebugFormDateofbirth"/>
+					<Prp name="need update" type="B" value="0"/>
+					<Prp name="click point x" type="I" value="-1"/>
+				</Node>
+				<Node name="original">
+					<Prp name="object left" type="I" value="1012"/>
+					<Prp name="click point y" type="I" value="-1"/>
+					<Prp name="object top" type="I" value="473"/>
+					<Prp name="line #" type="I" value="31"/>
+					<Prp name="signature" type="S" value="{87B03792-E854-4F5D-9F33-165F1F874209}"/>
+					<Prp name="image file name" type="S" value="tcvi278819.png"/>
+					<Prp name="object right" type="I" value="1240"/>
+					<Prp name="datetime" type="D" value="41582.9015856481"/>
+					<Prp name="storage file name" type="S" value=""/>
+					<Prp name="version" type="I" value="1"/>
+					<Prp name="object bottom" type="I" value="493"/>
+					<Prp name="object name" type="S" value="Aliases.browser.pageHttpTestlocationDev03Reachco.tableGwtDebugIdComReachcallFront.cell.table2.textboxGwtDebugFormDateofbirth"/>
+					<Prp name="need update" type="B" value="0"/>
+					<Prp name="click point x" type="I" value="1919"/>
+				</Node>
+				<Node name="diff">
+					<Prp name="object left" type="I" value="-1"/>
+					<Prp name="click point y" type="I" value="-1"/>
+					<Prp name="object top" type="I" value="-1"/>
+					<Prp name="line #" type="I" value="31"/>
+					<Prp name="signature" type="S" value="{87B03792-E854-4F5D-9F33-165F1F874209}"/>
+					<Prp name="image file name" type="S" value="visImage10_Dif.png"/>
+					<Prp name="object right" type="I" value="-1"/>
+					<Prp name="datetime" type="D" value="0"/>
+					<Prp name="storage file name" type="S" value=""/>
+					<Prp name="version" type="I" value="1"/>
+					<Prp name="object bottom" type="I" value="-1"/>
+					<Prp name="object name" type="S" value=""/>
+					<Prp name="need update" type="B" value="0"/>
+					<Prp name="click point x" type="I" value="-1"/>
+				</Node>
+			</Node>
+			<Prp name="id" type="I" value="12"/>
+			<Prp name="as html" type="B" value="0"/>
+			<Prp name="type" type="I" value="1"/>
+			<Prp name="link" type="S" value=""/>
+			<Prp name="child index" type="I" value="-1"/>
+			<Prp name="date" type="D" value="41583.6502339815"/>
+			<Prp name="owner id" type="I" value="-1"/>
+			<Prp name="unit id" type="I" value="1"/>
+			<Prp name="message" type="S" value="Keyboard input."/>
+			<Prp name="priority" type="I" value="300"/>
+			<Prp name="remarks" type="S" value="'0/5/1958' was sent as a keyboard input to a window:&#xA;&#xA;Tested object:&#xA;Aliases.browser.pageHttpTestlocationDev03Reachco.tableGwtDebugIdComReachcallFront.cell.table2.textboxGwtDebugFormDateofbirth&#xA;(Sys.Browser(&quot;chrome&quot;).Page(&quot;http://testlocation.dev03.reachcorp.local/frontend/&quot;).Panel(&quot;root&quot;).Panel(2).Table(&quot;gwt_debug_id_com_reachcall_frontend_client_ui_PageShell3&quot;).Cell(1, 0).Panel(0).Table(&quot;gwt_debug_id_com_reachcall_frontend_client_registration_Registration13&quot;).Cell(1, 0).Panel(0).Table(&quot;gwt_debug_id_com_reachcall_frontend_client_registration_Screen11&quot;).Cell(0, 1).Table(0).Cell(1, 0).Panel(0).Panel(0).Panel(0).Table(1).Cell(8, 0).Panel(0).Table(0).Cell(0, 1).Table(0).Cell(0, 0).Panel(0).Table(0).Cell(0, 1).Textbox(&quot;gwt_debug_Form_dateOfBirth&quot;))"/>
+			<Prp name="line no" type="I" value="31"/>
+			<Prp name="picture" type="S" value=""/>
+		</Node>
+		<Node name="message 16">
+			<Prp name="id" type="I" value="16"/>
+			<Prp name="as html" type="B" value="0"/>
+			<Prp name="type" type="I" value="3"/>
+			<Prp name="link" type="S" value=""/>
+			<Prp name="child index" type="I" value="-1"/>
+			<Prp name="date" type="D" value="41583.650371088"/>
+			<Prp name="stack beginning" type="I" value="1"/>
+			<Prp name="owner id" type="I" value="-1"/>
+			<Prp name="unit id" type="I" value="1"/>
+			<Prp name="message" type="S" value="Script execution was interrupted."/>
+			<Prp name="priority" type="I" value="300"/>
+			<Prp name="stack end" type="I" value="1"/>
+			<Prp name="remarks" type="S" value="Possible reasons:&#xA; - An error or warning occurred during the test run. See the preceding log entries to locate and identify the error.&#xA; - The test run was stopped manually.&#xA; - The test run was terminated as a result of the Runner.Halt method call."/>
+			<Prp name="line no" type="I" value="37"/>
+			<Prp name="picture" type="S" value="Picture2.png"/>
+		</Node>
+		<Node name="message 5">
+			<Node name="visualizer">
+				<Node name="current">
+					<Prp name="object left" type="I" value="529"/>
+					<Prp name="click point y" type="I" value="274"/>
+					<Prp name="object top" type="I" value="264"/>
+					<Prp name="line #" type="I" value="17"/>
+					<Prp name="signature" type="S" value="{87B03792-E854-4F5D-9F33-165F1F874209}"/>
+					<Prp name="image file name" type="S" value="visImage3.png"/>
+					<Prp name="object right" type="I" value="583"/>
+					<Prp name="datetime" type="D" value="41583.6501454861"/>
+					<Prp name="storage file name" type="S" value=""/>
+					<Prp name="version" type="I" value="1"/>
+					<Prp name="object bottom" type="I" value="284"/>
+					<Prp name="object name" type="S" value="Aliases.browser.pageHttpTestlocationDev03Reachco.tableGwtDebugIdComReachcallFront.cell.table.button"/>
+					<Prp name="need update" type="B" value="0"/>
+					<Prp name="click point x" type="I" value="556"/>
+				</Node>
+				<Node name="original">
+					<Prp name="object left" type="I" value="998"/>
+					<Prp name="click point y" type="I" value="256"/>
+					<Prp name="object top" type="I" value="244"/>
+					<Prp name="line #" type="I" value="17"/>
+					<Prp name="signature" type="S" value="{87B03792-E854-4F5D-9F33-165F1F874209}"/>
+					<Prp name="image file name" type="S" value="tcvi27887.png"/>
+					<Prp name="object right" type="I" value="1052"/>
+					<Prp name="datetime" type="D" value="41582.9013310185"/>
+					<Prp name="storage file name" type="S" value=""/>
+					<Prp name="version" type="I" value="1"/>
+					<Prp name="object bottom" type="I" value="264"/>
+					<Prp name="object name" type="S" value="Aliases.browser.pageHttpTestlocationDev03Reachco.tableGwtDebugIdComReachcallFront.cell.table.button"/>
+					<Prp name="need update" type="B" value="0"/>
+					<Prp name="click point x" type="I" value="1001"/>
+				</Node>
+				<Node name="diff">
+					<Prp name="object left" type="I" value="-1"/>
+					<Prp name="click point y" type="I" value="-1"/>
+					<Prp name="object top" type="I" value="-1"/>
+					<Prp name="line #" type="I" value="17"/>
+					<Prp name="signature" type="S" value="{87B03792-E854-4F5D-9F33-165F1F874209}"/>
+					<Prp name="image file name" type="S" value="visImage3_Dif.png"/>
+					<Prp name="object right" type="I" value="-1"/>
+					<Prp name="datetime" type="D" value="0"/>
+					<Prp name="storage file name" type="S" value=""/>
+					<Prp name="version" type="I" value="1"/>
+					<Prp name="object bottom" type="I" value="-1"/>
+					<Prp name="object name" type="S" value=""/>
+					<Prp name="need update" type="B" value="0"/>
+					<Prp name="click point x" type="I" value="-1"/>
+				</Node>
+			</Node>
+			<Prp name="id" type="I" value="5"/>
+			<Prp name="as html" type="B" value="0"/>
+			<Prp name="type" type="I" value="1"/>
+			<Prp name="link" type="S" value=""/>
+			<Prp name="child index" type="I" value="-1"/>
+			<Prp name="date" type="D" value="41583.650147963"/>
+			<Prp name="owner id" type="I" value="-1"/>
+			<Prp name="unit id" type="I" value="1"/>
+			<Prp name="message" type="S" value="The button was clicked with the left mouse button."/>
+			<Prp name="priority" type="I" value="300"/>
+			<Prp name="remarks" type="S" value="Tested object:&#xA;Aliases.browser.pageHttpTestlocationDev03Reachco.tableGwtDebugIdComReachcallFront.cell.table.button&#xA;(Sys.Browser(&quot;chrome&quot;).Page(&quot;http://testlocation.dev03.reachcorp.local/frontend/&quot;).Panel(&quot;root&quot;).Panel(2).Table(&quot;gwt_debug_id_com_reachcall_frontend_client_ui_PageShell3&quot;).Cell(1, 0).Panel(0).Table(&quot;gwt_debug_id_com_reachcall_frontend_client_login_LoginScreen7&quot;).Cell(1, 0).Table(0).Cell(3, 0).Button(0))"/>
+			<Prp name="line no" type="I" value="17"/>
+			<Prp name="picture" type="S" value=""/>
+		</Node>
+		<Node name="message 9">
+			<Node name="visualizer">
+				<Node name="current">
+					<Prp name="object left" type="I" value="531"/>
+					<Prp name="click point y" type="I" value="469"/>
+					<Prp name="object top" type="I" value="463"/>
+					<Prp name="line #" type="I" value="25"/>
+					<Prp name="signature" type="S" value="{87B03792-E854-4F5D-9F33-165F1F874209}"/>
+					<Prp name="image file name" type="S" value="visImage7.png"/>
+					<Prp name="object right" type="I" value="931"/>
+					<Prp name="datetime" type="D" value="41583.6501864815"/>
+					<Prp name="storage file name" type="S" value=""/>
+					<Prp name="version" type="I" value="1"/>
+					<Prp name="object bottom" type="I" value="481"/>
+					<Prp name="object name" type="S" value="Aliases.browser.pageHttpTestlocationDev03Reachco.tableGwtDebugIdComReachcallFront.cell.table2.cell.panel.table.cell.table.cell"/>
+					<Prp name="need update" type="B" value="0"/>
+					<Prp name="click point x" type="I" value="626"/>
+				</Node>
+				<Node name="original">
+					<Prp name="object left" type="I" value="1011"/>
+					<Prp name="click point y" type="I" value="449"/>
+					<Prp name="object top" type="I" value="443"/>
+					<Prp name="line #" type="I" value="25"/>
+					<Prp name="signature" type="S" value="{87B03792-E854-4F5D-9F33-165F1F874209}"/>
+					<Prp name="image file name" type="S" value="tcvi278816.png"/>
+					<Prp name="object right" type="I" value="1411"/>
+					<Prp name="datetime" type="D" value="41582.9015162037"/>
+					<Prp name="storage file name" type="S" value=""/>
+					<Prp name="version" type="I" value="1"/>
+					<Prp name="object bottom" type="I" value="461"/>
+					<Prp name="object name" type="S" value="Aliases.browser.pageHttpTestlocationDev03Reachco.tableGwtDebugIdComReachcallFront.cell.table2.cell.panel.table.cell.table.cell"/>
+					<Prp name="need update" type="B" value="0"/>
+					<Prp name="click point x" type="I" value="1106"/>
+				</Node>
+				<Node name="diff">
+					<Prp name="object left" type="I" value="-1"/>
+					<Prp name="click point y" type="I" value="-1"/>
+					<Prp name="object top" type="I" value="-1"/>
+					<Prp name="line #" type="I" value="25"/>
+					<Prp name="signature" type="S" value="{87B03792-E854-4F5D-9F33-165F1F874209}"/>
+					<Prp name="image file name" type="S" value="visImage7_Dif.png"/>
+					<Prp name="object right" type="I" value="-1"/>
+					<Prp name="datetime" type="D" value="0"/>
+					<Prp name="storage file name" type="S" value=""/>
+					<Prp name="version" type="I" value="1"/>
+					<Prp name="object bottom" type="I" value="-1"/>
+					<Prp name="object name" type="S" value=""/>
+					<Prp name="need update" type="B" value="0"/>
+					<Prp name="click point x" type="I" value="-1"/>
+				</Node>
+			</Node>
+			<Prp name="id" type="I" value="9"/>
+			<Prp name="as html" type="B" value="0"/>
+			<Prp name="type" type="I" value="1"/>
+			<Prp name="link" type="S" value=""/>
+			<Prp name="child index" type="I" value="-1"/>
+			<Prp name="date" type="D" value="41583.6501885764"/>
+			<Prp name="owner id" type="I" value="-1"/>
+			<Prp name="unit id" type="I" value="1"/>
+			<Prp name="message" type="S" value="The window was clicked with the left mouse button."/>
+			<Prp name="priority" type="I" value="300"/>
+			<Prp name="remarks" type="S" value="A click at point (95, 6) with no key pressed.&#xA;&#xA;Tested object:&#xA;Aliases.browser.pageHttpTestlocationDev03Reachco.tableGwtDebugIdComReachcallFront.cell.table2.cell.panel.table.cell.table.cell&#xA;(Sys.Browser(&quot;chrome&quot;).Page(&quot;http://testlocation.dev03.reachcorp.local/frontend/&quot;).Panel(&quot;root&quot;).Panel(2).Table(&quot;gwt_debug_id_com_reachcall_frontend_client_ui_PageShell3&quot;).Cell(1, 0).Panel(0).Table(&quot;gwt_debug_id_com_reachcall_frontend_client_registration_Registration13&quot;).Cell(1, 0).Panel(0).Table(&quot;gwt_debug_id_com_reachcall_frontend_client_registration_Screen11&quot;).Cell(0, 1).Table(0).Cell(1, 0).Panel(0).Panel(0).Panel(0).Table(1).Cell(6, 0).Panel(0).Table(0).Cell(0, 1).Table(&quot;gwt_debug_Form_race&quot;).Cell(0, 0).Panel(0).Table(0).Cell(0, 0))"/>
+			<Prp name="line no" type="I" value="25"/>
+			<Prp name="picture" type="S" value=""/>
+		</Node>
+		<Node name="n-0">
+			<Node name="data">
+				<Prp name="d-0" type="D" value="41583.650371088"/>
+			</Node>
+			<Prp name="id" type="S" value="{5C4EF7C7-C2C9-43CB-85AE-66E5E6E35778}"/>
+			<Prp name="color" type="I" value="0"/>
+			<Prp name="isinteger" type="B" value="0"/>
+			<Prp name="countertype" type="I" value="4"/>
+			<Prp name="columnindex" type="I" value="0"/>
+			<Prp name="type" type="I" value="0"/>
+			<Prp name="description" type="S" value=""/>
+			<Prp name="name" type="S" value="Date&amp;Time"/>
+			<Prp name="length" type="I" value="1"/>
+		</Node>
+		<Node name="message 13">
+			<Node name="visualizer">
+				<Node name="current">
+					<Prp name="object left" type="I" value="532"/>
+					<Prp name="click point y" type="I" value="526"/>
+					<Prp name="object top" type="I" value="519"/>
+					<Prp name="line #" type="I" value="33"/>
+					<Prp name="signature" type="S" value="{87B03792-E854-4F5D-9F33-165F1F874209}"/>
+					<Prp name="image file name" type="S" value="visImage11.png"/>
+					<Prp name="object right" type="I" value="963"/>
+					<Prp name="datetime" type="D" value="41583.6502360764"/>
+					<Prp name="storage file name" type="S" value=""/>
+					<Prp name="version" type="I" value="1"/>
+					<Prp name="object bottom" type="I" value="539"/>
+					<Prp name="object name" type="S" value="Aliases.browser.pageHttpTestlocationDev03Reachco.tableGwtDebugIdComReachcallFront.cell.table2.textboxGwtDebugFormRoombed"/>
+					<Prp name="need update" type="B" value="0"/>
+					<Prp name="click point x" type="I" value="560"/>
+				</Node>
+				<Node name="original">
+					<Prp name="object left" type="I" value="1012"/>
+					<Prp name="click point y" type="I" value="506"/>
+					<Prp name="object top" type="I" value="499"/>
+					<Prp name="line #" type="I" value="33"/>
+					<Prp name="signature" type="S" value="{87B03792-E854-4F5D-9F33-165F1F874209}"/>
+					<Prp name="image file name" type="S" value="tcvi278827.png"/>
+					<Prp name="object right" type="I" value="1443"/>
+					<Prp name="datetime" type="D" value="41582.9016435185"/>
+					<Prp name="storage file name" type="S" value=""/>
+					<Prp name="version" type="I" value="1"/>
+					<Prp name="object bottom" type="I" value="519"/>
+					<Prp name="object name" type="S" value="Aliases.browser.pageHttpTestlocationDev03Reachco.tableGwtDebugIdComReachcallFront.cell.table2.textboxGwtDebugFormRoombed"/>
+					<Prp name="need update" type="B" value="0"/>
+					<Prp name="click point x" type="I" value="1040"/>
+				</Node>
+				<Node name="diff">
+					<Prp name="object left" type="I" value="-1"/>
+					<Prp name="click point y" type="I" value="-1"/>
+					<Prp name="object top" type="I" value="-1"/>
+					<Prp name="line #" type="I" value="33"/>
+					<Prp name="signature" type="S" value="{87B03792-E854-4F5D-9F33-165F1F874209}"/>
+					<Prp name="image file name" type="S" value="visImage11_Dif.png"/>
+					<Prp name="object right" type="I" value="-1"/>
+					<Prp name="datetime" type="D" value="0"/>
+					<Prp name="storage file name" type="S" value=""/>
+					<Prp name="version" type="I" value="1"/>
+					<Prp name="object bottom" type="I" value="-1"/>
+					<Prp name="object name" type="S" value=""/>
+					<Prp name="need update" type="B" value="0"/>
+					<Prp name="click point x" type="I" value="-1"/>
+				</Node>
+			</Node>
+			<Prp name="id" type="I" value="13"/>
+			<Prp name="as html" type="B" value="0"/>
+			<Prp name="type" type="I" value="1"/>
+			<Prp name="link" type="S" value=""/>
+			<Prp name="child index" type="I" value="-1"/>
+			<Prp name="date" type="D" value="41583.6502369907"/>
+			<Prp name="owner id" type="I" value="-1"/>
+			<Prp name="unit id" type="I" value="1"/>
+			<Prp name="message" type="S" value="The window was clicked with the left mouse button."/>
+			<Prp name="priority" type="I" value="300"/>
+			<Prp name="remarks" type="S" value="A click at point (28, 7) with no key pressed.&#xA;&#xA;Tested object:&#xA;Aliases.browser.pageHttpTestlocationDev03Reachco.tableGwtDebugIdComReachcallFront.cell.table2.textboxGwtDebugFormRoombed&#xA;(Sys.Browser(&quot;chrome&quot;).Page(&quot;http://testlocation.dev03.reachcorp.local/frontend/&quot;).Panel(&quot;root&quot;).Panel(2).Table(&quot;gwt_debug_id_com_reachcall_frontend_client_ui_PageShell3&quot;).Cell(1, 0).Panel(0).Table(&quot;gwt_debug_id_com_reachcall_frontend_client_registration_Registration13&quot;).Cell(1, 0).Panel(0).Table(&quot;gwt_debug_id_com_reachcall_frontend_client_registration_Screen11&quot;).Cell(0, 1).Table(0).Cell(1, 0).Panel(0).Panel(0).Panel(0).Table(1).Cell(10, 0).Panel(0).Table(0).Cell(0, 1).Textbox(&quot;gwt_debug_Form_roomBed&quot;))"/>
+			<Prp name="line no" type="I" value="33"/>
+			<Prp name="picture" type="S" value=""/>
+		</Node>
+		<Node name="message 2">
+			<Node name="visualizer">
+				<Node name="current">
+					<Prp name="object left" type="I" value="-8"/>
+					<Prp name="click point y" type="I" value="15"/>
+					<Prp name="object top" type="I" value="-8"/>
+					<Prp name="line #" type="I" value="11"/>
+					<Prp name="signature" type="S" value="{87B03792-E854-4F5D-9F33-165F1F874209}"/>
+					<Prp name="image file name" type="S" value="visImage0.png"/>
+					<Prp name="object right" type="I" value="1928"/>
+					<Prp name="datetime" type="D" value="41583.6500824653"/>
+					<Prp name="storage file name" type="S" value=""/>
+					<Prp name="version" type="I" value="1"/>
+					<Prp name="object bottom" type="I" value="1088"/>
+					<Prp name="object name" type="S" value="Aliases.browser.BrowserWindow"/>
+					<Prp name="need update" type="B" value="0"/>
+					<Prp name="click point x" type="I" value="1011"/>
+				</Node>
+				<Node name="original">
+					<Prp name="object left" type="I" value="0"/>
+					<Prp name="click point y" type="I" value="23"/>
+					<Prp name="object top" type="I" value="0"/>
+					<Prp name="line #" type="I" value="11"/>
+					<Prp name="signature" type="S" value="{87B03792-E854-4F5D-9F33-165F1F874209}"/>
+					<Prp name="image file name" type="S" value="tcvi27880.png"/>
+					<Prp name="object right" type="I" value="1418"/>
+					<Prp name="datetime" type="D" value="41582.9011921296"/>
+					<Prp name="storage file name" type="S" value=""/>
+					<Prp name="version" type="I" value="1"/>
+					<Prp name="object bottom" type="I" value="1008"/>
+					<Prp name="object name" type="S" value="Aliases.browser.BrowserWindow"/>
+					<Prp name="need update" type="B" value="0"/>
+					<Prp name="click point x" type="I" value="1019"/>
+				</Node>
+				<Node name="diff">
+					<Prp name="object left" type="I" value="-1"/>
+					<Prp name="click point y" type="I" value="-1"/>
+					<Prp name="object top" type="I" value="-1"/>
+					<Prp name="line #" type="I" value="11"/>
+					<Prp name="signature" type="S" value="{87B03792-E854-4F5D-9F33-165F1F874209}"/>
+					<Prp name="image file name" type="S" value="visImage0_Dif.png"/>
+					<Prp name="object right" type="I" value="-1"/>
+					<Prp name="datetime" type="D" value="0"/>
+					<Prp name="storage file name" type="S" value=""/>
+					<Prp name="version" type="I" value="1"/>
+					<Prp name="object bottom" type="I" value="-1"/>
+					<Prp name="object name" type="S" value=""/>
+					<Prp name="need update" type="B" value="0"/>
+					<Prp name="click point x" type="I" value="-1"/>
+				</Node>
+			</Node>
+			<Prp name="id" type="I" value="2"/>
+			<Prp name="as html" type="B" value="0"/>
+			<Prp name="type" type="I" value="1"/>
+			<Prp name="link" type="S" value=""/>
+			<Prp name="child index" type="I" value="-1"/>
+			<Prp name="date" type="D" value="41583.65008375"/>
+			<Prp name="owner id" type="I" value="-1"/>
+			<Prp name="unit id" type="I" value="1"/>
+			<Prp name="message" type="S" value="The window was double-clicked by the left mouse button."/>
+			<Prp name="priority" type="I" value="300"/>
+			<Prp name="remarks" type="S" value="A click at point (1019, 23) with no key pressed.&#xA;&#xA;Tested object:&#xA;Aliases.browser.BrowserWindow&#xA;(Sys.Browser(&quot;chrome&quot;).BrowserWindow(0))"/>
+			<Prp name="line no" type="I" value="11"/>
+			<Prp name="picture" type="S" value=""/>
+		</Node>
+		<Node name="stack"/>
+		<Node name="message 6">
+			<Node name="visualizer">
+				<Node name="current">
+					<Prp name="object left" type="I" value="523"/>
+					<Prp name="click point y" type="I" value="351"/>
+					<Prp name="object top" type="I" value="342"/>
+					<Prp name="line #" type="I" value="19"/>
+					<Prp name="signature" type="S" value="{87B03792-E854-4F5D-9F33-165F1F874209}"/>
+					<Prp name="image file name" type="S" value="visImage4.png"/>
+					<Prp name="object right" type="I" value="962"/>
+					<Prp name="datetime" type="D" value="41583.6501709259"/>
+					<Prp name="storage file name" type="S" value=""/>
+					<Prp name="version" type="I" value="1"/>
+					<Prp name="object bottom" type="I" value="362"/>
+					<Prp name="object name" type="S" value="Aliases.browser.pageHttpTestlocationDev03Reachco.tableGwtDebugIdComReachcallFront.cell.textboxGwtDebugFormPatientname"/>
+					<Prp name="need update" type="B" value="0"/>
+					<Prp name="click point x" type="I" value="605"/>
+				</Node>
+				<Node name="original">
+					<Prp name="object left" type="I" value="1003"/>
+					<Prp name="click point y" type="I" value="331"/>
+					<Prp name="object top" type="I" value="322"/>
+					<Prp name="line #" type="I" value="19"/>
+					<Prp name="signature" type="S" value="{87B03792-E854-4F5D-9F33-165F1F874209}"/>
+					<Prp name="image file name" type="S" value="tcvi27888.png"/>
+					<Prp name="object right" type="I" value="1442"/>
+					<Prp name="datetime" type="D" value="41582.9013773148"/>
+					<Prp name="storage file name" type="S" value=""/>
+					<Prp name="version" type="I" value="1"/>
+					<Prp name="object bottom" type="I" value="342"/>
+					<Prp name="object name" type="S" value="Aliases.browser.pageHttpTestlocationDev03Reachco.tableGwtDebugIdComReachcallFront.cell.textboxGwtDebugFormPatientname"/>
+					<Prp name="need update" type="B" value="0"/>
+					<Prp name="click point x" type="I" value="1085"/>
+				</Node>
+				<Node name="diff">
+					<Prp name="object left" type="I" value="-1"/>
+					<Prp name="click point y" type="I" value="-1"/>
+					<Prp name="object top" type="I" value="-1"/>
+					<Prp name="line #" type="I" value="19"/>
+					<Prp name="signature" type="S" value="{87B03792-E854-4F5D-9F33-165F1F874209}"/>
+					<Prp name="image file name" type="S" value="visImage4_Dif.png"/>
+					<Prp name="object right" type="I" value="-1"/>
+					<Prp name="datetime" type="D" value="0"/>
+					<Prp name="storage file name" type="S" value=""/>
+					<Prp name="version" type="I" value="1"/>
+					<Prp name="object bottom" type="I" value="-1"/>
+					<Prp name="object name" type="S" value=""/>
+					<Prp name="need update" type="B" value="0"/>
+					<Prp name="click point x" type="I" value="-1"/>
+				</Node>
+			</Node>
+			<Prp name="id" type="I" value="6"/>
+			<Prp name="as html" type="B" value="0"/>
+			<Prp name="type" type="I" value="1"/>
+			<Prp name="link" type="S" value=""/>
+			<Prp name="child index" type="I" value="-1"/>
+			<Prp name="date" type="D" value="41583.6501717361"/>
+			<Prp name="owner id" type="I" value="-1"/>
+			<Prp name="unit id" type="I" value="1"/>
+			<Prp name="message" type="S" value="The window was clicked with the left mouse button."/>
+			<Prp name="priority" type="I" value="300"/>
+			<Prp name="remarks" type="S" value="A click at point (82, 9) with no key pressed.&#xA;&#xA;Tested object:&#xA;Aliases.browser.pageHttpTestlocationDev03Reachco.tableGwtDebugIdComReachcallFront.cell.textboxGwtDebugFormPatientname&#xA;(Sys.Browser(&quot;chrome&quot;).Page(&quot;http://testlocation.dev03.reachcorp.local/frontend/&quot;).Panel(&quot;root&quot;).Panel(2).Table(&quot;gwt_debug_id_com_reachcall_frontend_client_ui_PageShell3&quot;).Cell(1, 0).Panel(0).Table(&quot;gwt_debug_id_com_reachcall_frontend_client_registration_Registration13&quot;).Cell(1, 0).Panel(0).Table(&quot;gwt_debug_id_com_reachcall_frontend_client_registration_Screen11&quot;).Cell(0, 1).Table(0).Cell(1, 0).Panel(0).Panel(0).Panel(0).Table(1).Cell(1, 0).Panel(0).Table(0).Cell(0, 0).Table(0).Cell(0, 1).Textbox(&quot;gwt_debug_Form_patientName&quot;))"/>
+			<Prp name="line no" type="I" value="19"/>
+			<Prp name="picture" type="S" value=""/>
+		</Node>
+		<Node name="message 10">
+			<Node name="visualizer">
+				<Node name="current">
+					<Prp name="object left" type="I" value="534"/>
+					<Prp name="click point y" type="I" value="531"/>
+					<Prp name="object top" type="I" value="524"/>
+					<Prp name="line #" type="I" value="27"/>
+					<Prp name="signature" type="S" value="{87B03792-E854-4F5D-9F33-165F1F874209}"/>
+					<Prp name="image file name" type="S" value="visImage8.png"/>
+					<Prp name="object right" type="I" value="918"/>
+					<Prp name="datetime" type="D" value="41583.6502140046"/>
+					<Prp name="storage file name" type="S" value=""/>
+					<Prp name="version" type="I" value="1"/>
+					<Prp name="object bottom" type="I" value="538"/>
+					<Prp name="object name" type="S" value="Aliases.browser.pageHttpTestlocationDev03Reachco.tableGwtDebugComReachcallFronten.cell.panel"/>
+					<Prp name="need update" type="B" value="0"/>
+					<Prp name="click point x" type="I" value="652"/>
+				</Node>
+				<Node name="original">
+					<Prp name="object left" type="I" value="1014"/>
+					<Prp name="click point y" type="I" value="511"/>
+					<Prp name="object top" type="I" value="504"/>
+					<Prp name="line #" type="I" value="27"/>
+					<Prp name="signature" type="S" value="{87B03792-E854-4F5D-9F33-165F1F874209}"/>
+					<Prp name="image file name" type="S" value="tcvi278817.png"/>
+					<Prp name="object right" type="I" value="1398"/>
+					<Prp name="datetime" type="D" value="41582.9015509259"/>
+					<Prp name="storage file name" type="S" value=""/>
+					<Prp name="version" type="I" value="1"/>
+					<Prp name="object bottom" type="I" value="518"/>
+					<Prp name="object name" type="S" value="Aliases.browser.pageHttpTestlocationDev03Reachco.tableGwtDebugComReachcallFronten.cell.panel"/>
+					<Prp name="need update" type="B" value="0"/>
+					<Prp name="click point x" type="I" value="1132"/>
+				</Node>
+				<Node name="diff">
+					<Prp name="object left" type="I" value="-1"/>
+					<Prp name="click point y" type="I" value="-1"/>
+					<Prp name="object top" type="I" value="-1"/>
+					<Prp name="line #" type="I" value="27"/>
+					<Prp name="signature" type="S" value="{87B03792-E854-4F5D-9F33-165F1F874209}"/>
+					<Prp name="image file name" type="S" value="visImage8_Dif.png"/>
+					<Prp name="object right" type="I" value="-1"/>
+					<Prp name="datetime" type="D" value="0"/>
+					<Prp name="storage file name" type="S" value=""/>
+					<Prp name="version" type="I" value="1"/>
+					<Prp name="object bottom" type="I" value="-1"/>
+					<Prp name="object name" type="S" value=""/>
+					<Prp name="need update" type="B" value="0"/>
+					<Prp name="click point x" type="I" value="-1"/>
+				</Node>
+			</Node>
+			<Prp name="id" type="I" value="10"/>
+			<Prp name="as html" type="B" value="0"/>
+			<Prp name="type" type="I" value="1"/>
+			<Prp name="link" type="S" value=""/>
+			<Prp name="child index" type="I" value="-1"/>
+			<Prp name="date" type="D" value="41583.6502148148"/>
+			<Prp name="owner id" type="I" value="-1"/>
+			<Prp name="unit id" type="I" value="1"/>
+			<Prp name="message" type="S" value="The window was clicked with the left mouse button."/>
+			<Prp name="priority" type="I" value="300"/>
+			<Prp name="remarks" type="S" value="A click at point (118, 7) with no key pressed.&#xA;&#xA;Tested object:&#xA;Aliases.browser.pageHttpTestlocationDev03Reachco.tableGwtDebugComReachcallFronten.cell.panel&#xA;(Sys.Browser(&quot;chrome&quot;).Page(&quot;http://testlocation.dev03.reachcorp.local/frontend/&quot;).Panel(0).Panel(0).Panel(0).Panel(0).Panel(0).Table(&quot;gwt_debug_com_reachcall_frontend_client_ui_SoftListBox_optionsList&quot;).Cell(4, 0).Panel(0).Panel(0))"/>
+			<Prp name="line no" type="I" value="27"/>
+			<Prp name="picture" type="S" value=""/>
+		</Node>
+		<Node name="message 14">
+			<Node name="visualizer">
+				<Node name="current">
+					<Prp name="object left" type="I" value="532"/>
+					<Prp name="click point y" type="I" value="-1"/>
+					<Prp name="object top" type="I" value="519"/>
+					<Prp name="line #" type="I" value="35"/>
+					<Prp name="signature" type="S" value="{87B03792-E854-4F5D-9F33-165F1F874209}"/>
+					<Prp name="image file name" type="S" value="visImage12.png"/>
+					<Prp name="object right" type="I" value="963"/>
+					<Prp name="datetime" type="D" value="41583.6502381597"/>
+					<Prp name="storage file name" type="S" value=""/>
+					<Prp name="version" type="I" value="1"/>
+					<Prp name="object bottom" type="I" value="539"/>
+					<Prp name="object name" type="S" value="Aliases.browser.pageHttpTestlocationDev03Reachco.tableGwtDebugIdComReachcallFront.cell.table2.textboxGwtDebugFormRoombed"/>
+					<Prp name="need update" type="B" value="0"/>
+					<Prp name="click point x" type="I" value="-1"/>
+				</Node>
+				<Node name="original">
+					<Prp name="object left" type="I" value="1012"/>
+					<Prp name="click point y" type="I" value="-1"/>
+					<Prp name="object top" type="I" value="499"/>
+					<Prp name="line #" type="I" value="35"/>
+					<Prp name="signature" type="S" value="{87B03792-E854-4F5D-9F33-165F1F874209}"/>
+					<Prp name="image file name" type="S" value="tcvi278829.png"/>
+					<Prp name="object right" type="I" value="1443"/>
+					<Prp name="datetime" type="D" value="41582.9016550926"/>
+					<Prp name="storage file name" type="S" value=""/>
+					<Prp name="version" type="I" value="1"/>
+					<Prp name="object bottom" type="I" value="519"/>
+					<Prp name="object name" type="S" value="Aliases.browser.pageHttpTestlocationDev03Reachco.tableGwtDebugIdComReachcallFront.cell.table2.textboxGwtDebugFormRoombed"/>
+					<Prp name="need update" type="B" value="0"/>
+					<Prp name="click point x" type="I" value="1919"/>
+				</Node>
+				<Node name="diff">
+					<Prp name="object left" type="I" value="-1"/>
+					<Prp name="click point y" type="I" value="-1"/>
+					<Prp name="object top" type="I" value="-1"/>
+					<Prp name="line #" type="I" value="35"/>
+					<Prp name="signature" type="S" value="{87B03792-E854-4F5D-9F33-165F1F874209}"/>
+					<Prp name="image file name" type="S" value="visImage12_Dif.png"/>
+					<Prp name="object right" type="I" value="-1"/>
+					<Prp name="datetime" type="D" value="0"/>
+					<Prp name="storage file name" type="S" value=""/>
+					<Prp name="version" type="I" value="1"/>
+					<Prp name="object bottom" type="I" value="-1"/>
+					<Prp name="object name" type="S" value=""/>
+					<Prp name="need update" type="B" value="0"/>
+					<Prp name="click point x" type="I" value="-1"/>
+				</Node>
+			</Node>
+			<Prp name="id" type="I" value="14"/>
+			<Prp name="as html" type="B" value="0"/>
+			<Prp name="type" type="I" value="1"/>
+			<Prp name="link" type="S" value=""/>
+			<Prp name="child index" type="I" value="-1"/>
+			<Prp name="date" type="D" value="41583.6502413657"/>
+			<Prp name="owner id" type="I" value="-1"/>
+			<Prp name="unit id" type="I" value="1"/>
+			<Prp name="message" type="S" value="Keyboard input."/>
+			<Prp name="priority" type="I" value="300"/>
+			<Prp name="remarks" type="S" value="'R1B1' was sent as a keyboard input to a window:&#xA;&#xA;Tested object:&#xA;Aliases.browser.pageHttpTestlocationDev03Reachco.tableGwtDebugIdComReachcallFront.cell.table2.textboxGwtDebugFormRoombed&#xA;(Sys.Browser(&quot;chrome&quot;).Page(&quot;http://testlocation.dev03.reachcorp.local/frontend/&quot;).Panel(&quot;root&quot;).Panel(2).Table(&quot;gwt_debug_id_com_reachcall_frontend_client_ui_PageShell3&quot;).Cell(1, 0).Panel(0).Table(&quot;gwt_debug_id_com_reachcall_frontend_client_registration_Registration13&quot;).Cell(1, 0).Panel(0).Table(&quot;gwt_debug_id_com_reachcall_frontend_client_registration_Screen11&quot;).Cell(0, 1).Table(0).Cell(1, 0).Panel(0).Panel(0).Panel(0).Table(1).Cell(10, 0).Panel(0).Table(0).Cell(0, 1).Textbox(&quot;gwt_debug_Form_roomBed&quot;))"/>
+			<Prp name="line no" type="I" value="35"/>
+			<Prp name="picture" type="S" value=""/>
+		</Node>
+		<Node name="item 0">
+			<Prp name="unit id" type="I" value="1"/>
+			<Prp name="line no" type="I" value="37"/>
+			<Prp name="stacktext" type="S" value="TC_Patient_Reg"/>
+		</Node>
+		<Node name="message 3">
+			<Node name="visualizer">
+				<Node name="current">
+					<Prp name="object left" type="I" value="430"/>
+					<Prp name="click point y" type="I" value="-1"/>
+					<Prp name="object top" type="I" value="206"/>
+					<Prp name="line #" type="I" value="13"/>
+					<Prp name="signature" type="S" value="{87B03792-E854-4F5D-9F33-165F1F874209}"/>
+					<Prp name="image file name" type="S" value="visImage1.png"/>
+					<Prp name="object right" type="I" value="583"/>
+					<Prp name="datetime" type="D" value="41583.6501328704"/>
+					<Prp name="storage file name" type="S" value=""/>
+					<Prp name="version" type="I" value="1"/>
+					<Prp name="object bottom" type="I" value="228"/>
+					<Prp name="object name" type="S" value="Aliases.browser.pageHttpTestlocationDev03Reachco.tableGwtDebugIdComReachcallFront.cell.table.cell.textbox"/>
+					<Prp name="need update" type="B" value="0"/>
+					<Prp name="click point x" type="I" value="-1"/>
+				</Node>
+				<Node name="original">
+					<Prp name="object left" type="I" value="899"/>
+					<Prp name="click point y" type="I" value="-1"/>
+					<Prp name="object top" type="I" value="186"/>
+					<Prp name="line #" type="I" value="13"/>
+					<Prp name="signature" type="S" value="{87B03792-E854-4F5D-9F33-165F1F874209}"/>
+					<Prp name="image file name" type="S" value="tcvi27881.png"/>
+					<Prp name="object right" type="I" value="1052"/>
+					<Prp name="datetime" type="D" value="41582.90125"/>
+					<Prp name="storage file name" type="S" value=""/>
+					<Prp name="version" type="I" value="1"/>
+					<Prp name="object bottom" type="I" value="208"/>
+					<Prp name="object name" type="S" value="Aliases.browser.pageHttpTestlocationDev03Reachco.tableGwtDebugIdComReachcallFront.cell.table.cell.textbox"/>
+					<Prp name="need update" type="B" value="0"/>
+					<Prp name="click point x" type="I" value="1919"/>
+				</Node>
+				<Node name="diff">
+					<Prp name="object left" type="I" value="-1"/>
+					<Prp name="click point y" type="I" value="-1"/>
+					<Prp name="object top" type="I" value="-1"/>
+					<Prp name="line #" type="I" value="13"/>
+					<Prp name="signature" type="S" value="{87B03792-E854-4F5D-9F33-165F1F874209}"/>
+					<Prp name="image file name" type="S" value="visImage1_Dif.png"/>
+					<Prp name="object right" type="I" value="-1"/>
+					<Prp name="datetime" type="D" value="0"/>
+					<Prp name="storage file name" type="S" value=""/>
+					<Prp name="version" type="I" value="1"/>
+					<Prp name="object bottom" type="I" value="-1"/>
+					<Prp name="object name" type="S" value=""/>
+					<Prp name="need update" type="B" value="0"/>
+					<Prp name="click point x" type="I" value="-1"/>
+				</Node>
+			</Node>
+			<Prp name="id" type="I" value="3"/>
+			<Prp name="as html" type="B" value="0"/>
+			<Prp name="type" type="I" value="1"/>
+			<Prp name="link" type="S" value=""/>
+			<Prp name="child index" type="I" value="-1"/>
+			<Prp name="date" type="D" value="41583.6501384143"/>
+			<Prp name="owner id" type="I" value="-1"/>
+			<Prp name="unit id" type="I" value="1"/>
+			<Prp name="message" type="S" value="Keyboard input."/>
+			<Prp name="priority" type="I" value="300"/>
+			<Prp name="remarks" type="S" value="'velaga_cart[Tab]' was sent as a keyboard input to a window:&#xA;&#xA;Tested object:&#xA;Aliases.browser.pageHttpTestlocationDev03Reachco.tableGwtDebugIdComReachcallFront.cell.table.cell.textbox&#xA;(Sys.Browser(&quot;chrome&quot;).Page(&quot;http://testlocation.dev03.reachcorp.local/frontend/&quot;).Panel(&quot;root&quot;).Panel(2).Table(&quot;gwt_debug_id_com_reachcall_frontend_client_ui_PageShell3&quot;).Cell(1, 0).Panel(0).Table(&quot;gwt_debug_id_com_reachcall_frontend_client_login_LoginScreen7&quot;).Cell(1, 0).Table(0).Cell(0, 1).Textbox(0))"/>
+			<Prp name="line no" type="I" value="13"/>
+			<Prp name="picture" type="S" value=""/>
+		</Node>
+		<Prp name="status" type="I" value="2"/>
+		<Prp name="perfcounterslength" type="I" value="1"/>
+	</Node>
+</Nodes>

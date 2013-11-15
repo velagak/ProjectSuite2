@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE Nodes [
+
+<!ENTITY % NameValue "CDATA">
+<!ENTITY % PropType "(I|S|D|L|H|B)">
+<!ENTITY % VersionValue "CDATA">
+
+<!ELEMENT Prp (#PCDATA)>
+<!ELEMENT Node (Node|Prp)*>
+<!ELEMENT Nodes (Node)+>
+
+<!ATTLIST Nodes version CDATA "1">
+
+<!ATTLIST Node name CDATA #REQUIRED>
+
+<!ATTLIST Prp name CDATA #REQUIRED>
+<!ATTLIST Prp type CDATA #REQUIRED>
+<!ATTLIST Prp value CDATA #REQUIRED>
+]>
+<Nodes version="1">
+	<Node name="root">
+		<Node name="data">
+			<Node name="{24b6fa0b-0143-461a-9758-aeb9e9a9428b}">
+				<Prp name="default project" type="S" value="{D014F95E-D535-47FF-AC0D-16B57C17EC98}"/>
+			</Node>
+			<Node name="{3a27d124-c3ea-4562-9f5c-7b74a232c51b}">
+				<Prp name="relpath" type="S" value="TestProject1\TestProject1.mds.tcLS"/>
+			</Node>
+			<Node name="{3e6a1c81-f935-4f2e-8078-efe3c89ce663}">
+				<Prp name="relpath" type="S" value="TestProject3\TestProject3.mds.tcLS"/>
+			</Node>
+			<Node name="{3f2b9b45-4de0-4376-ad08-ee3b509191fc}">
+				<Prp name="relpath" type="S" value="SmokeTests\SmokeTests.mds.tcLS"/>
+			</Node>
+			<Node name="{d014f95e-d535-47ff-ac0d-16b57c17ec98}">
+				<Prp name="relpath" type="S" value="TestProject3\QA3_Smoke_Tests.mds.tcLS"/>
+			</Node>
+			<Node name="{d485634e-f4ff-426c-83cf-7a8370790d8b}">
+				<Prp name="relpath" type="S" value="TestProject2\TestProject2.mds.tcLS"/>
+			</Node>
+			<Node name="{e345a63f-6c4a-4930-8d74-874c30b09bad}">
+				<Prp name="relpath" type="S" value="Testtabs\Testtabs.mds.tcLS"/>
+			</Node>
+			<Node name="{ed06bc16-2734-468c-a20f-5c19d0854608}">
+				<Prp name="relpath" type="S" value="TestProject3\TestProject3.mds.tcLS"/>
+			</Node>
+			<Node name="logs">
+				<Prp name="key" type="S" value="{8D24CBA8-9163-49FB-92D6-A9D97A66F6DA}"/>
+				<Prp name="relpath" type="S" value="Log"/>
+			</Node>
+			<Node name="variables">
+				<Node name="datav3">
+					<Node name="var0">
+						<Prp name="name" type="S" value="PatientFullname"/>
+					</Node>
+					<Node name="var1">
+						<Prp name="name" type="S" value="PatientDOB"/>
+					</Node>
+					<Node name="var2">
+						<Prp name="name" type="S" value="LoginUserid"/>
+					</Node>
+					<Node name="var3">
+						<Prp name="name" type="S" value="Loginpassword"/>
+					</Node>
+					<Node name="var4">
+						<Prp name="name" type="S" value="ServerEnv"/>
+					</Node>
+					<Node name="var5">
+						<Prp name="name" type="S" value="URL_Dev"/>
+					</Node>
+					<Node name="var6">
+						<Prp name="name" type="S" value="URL_Qa"/>
+					</Node>
+				</Node>
+				<Prp name="version" type="I" value="3"/>
+			</Node>
+		</Node>
+		<Prp name="signature" type="S" value="{71078212-FAEB-4856-A901-B237C89E6B5C}"/>
+	</Node>
+</Nodes>
